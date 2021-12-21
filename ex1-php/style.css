@@ -9,8 +9,10 @@
 header {
     background-color: aquamarine;
 }
-img {
+.logo {
     width: 80px;
     padding: 10px;
-
+}
+span {
+    display: block;
 }
