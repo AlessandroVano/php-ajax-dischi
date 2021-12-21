@@ -23,8 +23,7 @@
       <main>
         <div class="container">
           <div class="row">
-            <div v-for="(data, index) in albums" :key="`user-id-${index}`">
-              <div class="col-4">
+            <div class="col-4" v-for="(data, index) in albums" :key="`user-id-${index}`">
                 <div class="card-container mb-3 p-3 m-5">
                   <img :src="data.poster" :alt="data.title" />
                   <h5>{{data.title}}</h5>
@@ -33,7 +32,6 @@
                   <span> {{data.genre}}</span>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </main>
