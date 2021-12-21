@@ -1,18 +1,33 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /* Header section style */
 header {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 .logo {
-    width: 80px;
-    padding: 10px;
+  width: 80px;
+  padding: 10px;
 }
 span {
-    display: block;
+  display: block;
+}
+
+.col-4 img {
+  width: 150px;
+}
+
+
+
+.card-container {
+  background-color: black;
+  text-align: center;
+}
+
+.card-container span,
+h5 {
+  color: white;
 }
